@@ -1,0 +1,72 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  height: 900px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 600px;
+}
+
+h1 {
+  font-size: 5em;
+  color: rgba(200, 0, 0, 20%);
+  font-weight: bold;
+}
+
+input {
+  border: none;
+}
+
+span {
+  height: 50%;
+  width: 30px;
+  text-align: center;
+}
+
+
+.check-box {
+  border: solid hsl(0, 0%, 90%) 2px;
+}
+
+.check-mark {
+  font-size: 1.4em;
+  color: skyblue;
+}
+
+.faded-font {
+  color: hsl(0, 0%, 85%);
+}
+
+::placeholder {
+  font-style: italic;
+  color: hsl(0, 0%, 80%);
+}
+
+.end,
+.task {
+  border-top: solid hsl(0, 0%, 90%) 1px;
+  background-color: white;
+  height: 60px;
+}
+
+.end {
+  height: 45px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+
+.cancel {
+  color: red;
+  display: none;
+}
+
+.end .btn {
+  height: 100%;
+}

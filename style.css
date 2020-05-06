@@ -35,6 +35,12 @@ span {
 .check-mark {
   font-size: 1.4em;
   color: skyblue;
+  display: none;
+}
+
+.cancel {
+  color: red;
+  display: none;
 }
 
 .faded-font {
@@ -59,12 +65,6 @@ span {
 
 .complete {
   text-decoration: line-through;
-}
-
-
-.cancel {
-  color: red;
-  display: none;
 }
 
 .end .btn {

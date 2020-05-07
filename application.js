@@ -150,11 +150,11 @@ $(document).ready(function () {
     fireGET();
   });
   $('.btn-active').click(function () {
-    state = 1;
+    state = 2;
     fireGET();
   });
   $('.btn-completed').click(function () {
-    state = 2;
+    state = 1;
     fireGET();
   });
 
